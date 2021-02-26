@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Four card feature section</title>
+
+</head>
+<body class='font-poppins bg-lightGray flex justify-center'>
+
+
+  <div class="container w-11/12 h-screen flex flex-col pt-20 ">
+    <div class="text self-center w-2/5 text-center">
+      <h1 class='text-4xl font-extralight pb-4 text-veryDarkBlue' >Reliable, efficient delivery</h1>
+      <h1 class='text-4xl font-semibold pb-4 text-veryDarkBlue' >Powered by Technology</h1>
+      <h3 class='text-grayishBlue'>Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</h3>
+    </div>
+    <div class="cards-container  flex flex-row md:flex-col w-auto h-auto self-center justify-center  mt-16">
+      <div class="card w-80 h-60  mr-7 self-center flex flex-col p-5 bg-white rounded border-t-4 border-cyan md:mb-7 md:mr-0 ">
+        <div class="card-text ">
+          <h2 class='font-semibold text-2xl pb-3 text-veryDarkBlue'>Supervisor</h2>
+          <p class= 'text-xs pl-1 text-grayishBlue' >Monitors activity to identify project roadblocks</p>
+        </div>
+        <div class="card-img self-end justify-self-end pt-12">
+          <img src="./images/icon-supervisor.svg" alt="">
+        </div>
+      </div>
+      <div class="middle">
+      <div class="card w-80 h-60  self-center flex flex-col p-5  mb-7 bg-white rounded border-t-4 border-red">
+        <div class="card-text">
+          <h2 class='font-semibold text-2xl pb-3'>Team Builder</h2>
+          <p class= 'text-xs pl-1 text-grayishBlue'>Scans our talent network to create the optimal team for you project</p>
+        </div>
+        <div class="card-img self-end justify-self-end pt-12">
+          <img src="./images/icon-team-builder.svg" alt="">
+        </div>
+      </div>
+      <div class="card w-80 h-60  self-center flex flex-col p-5  bg-white rounded border-t-4 border-orange md:mb-7">
+        <div class="card-text">
+          <h2 class='font-semibold text-2xl pb-3'>Karma</h2>
+          <p class= 'text-xs pl-1 text-grayishBlue'>Regularly evaluates our talent to ensure quality</p>
+        </div>
+        <div class="card-img self-end justify-self-end pt-12">
+          <img src="./images/icon-karma.svg" alt="">
+        </div>
+      </div>
+    </div>
+      <div class="card w-80 h-60  ml-7 md:mb-7 md:ml-0 self-center flex flex-col p-5 bg-white  rounded border-t-4 border-blue">
+        <div class="card-text">
+          <h2 class='font-semibold text-2xl pb-3'>Calculator</h2>
+          <p class= 'text-xs pl-1 text-grayishBlue'>Uses data from past projects to provide  better delivery estimates</p>
+        </div>
+        <div class="card-img self-end justify-self-end pt-12">
+          <img src="./images/icon-calculator.svg" alt="">
+        </div>
+      </div>
+      </div>
+    
+      
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
